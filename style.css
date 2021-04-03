@@ -37,14 +37,18 @@
 .task-row-wrapper {
   display: flex;
 }
-.incomplete-tasks, .completed-tasks {
+.incomplete-tasks,
+.completed-tasks {
   margin:0;
   padding: 0px;
 }
-.incomplete-tasks__item, .completed-tasks__item, .main__head {
+.incomplete-tasks__item,
+.completed-tasks__item,
+.main__head {
   list-style:none;
 }
-.main__input, .main__button {
+.main__input,
+.main__button {
   outline:none;
 }
 .main__button {
@@ -99,7 +103,8 @@
 }
 
 /* Task list */
-.incomplete-tasks__item, .completed-tasks__item {
+.incomplete-tasks__item,
+.completed-tasks__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -108,7 +113,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.incomplete-tasks__item ,
+.incomplete-tasks__item,
 .completed-tasks__item {
   vertical-align: middle;
 }
