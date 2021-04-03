@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.header__img{
+.header__img {
   width: 100%;
 }
 .header .header__more-inf {
@@ -44,7 +44,7 @@
 .incomplete-tasks__item, .completed-tasks__item, .main__head {
   list-style:none;
 }
-.main__input, .main__button{
+.main__input, .main__button {
   outline:none;
 }
 .main__button {
